@@ -14,8 +14,8 @@
     "nav nav nav nav"
     "skills box-center-box box-center-box about-me"
     "blog experiences experiences experiences"
-    "music music projects projects"
-    "socials socials projects projects"
+    "music music pictures pictures"
+    "socials socials pictures pictures"
     "footer footer footer footer";
   gap: 10px;
   padding: 10px;
@@ -90,8 +90,8 @@ nav ul {
   padding: var(--main-padding);
 }
 
-#projects {
-  grid-area: projects;
+#pictures {
+  grid-area: pictures;
   background: var(--salmon);
   border-radius: var(--main-radius);
   padding: var(--main-padding);
