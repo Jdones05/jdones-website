@@ -132,6 +132,70 @@ nav ul {
   color: white;
 }
 
+@media (max-width: 500px){
+  #container{
+    display: grid;
+   grid-template-areas:
+     "nav"
+    "box-center-box"
+    "skills"
+    "about-me"
+    "blog"
+    "experiences"
+    "pictures"
+    "music"
+    "socials"
+    "footer";
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 0;
+  }
+
+  section, header, footer{
+    text-align: center;
+  }
+
+  #box-center-box img{
+    width: 120px;
+    height: 120px;
+  }
+
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    border-radius: 10px;
+  }
+
+  .gallery img{
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  section{
+    padding: 10x;
+  }
+
+  #footer ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    justify-items: center;
+    padding: 0;
+  }
+
+}
+
+
 
 
 
