@@ -108,6 +108,14 @@ nav ul {
   border: 3px solid var(--salmon);
 }
 
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center; 
+  margin-top: 30px;
+}
+
 #socials {
   grid-area: socials;
   background: var(--seablue);
@@ -123,6 +131,7 @@ nav ul {
   padding: var(--main-padding);
   color: white;
 }
+
 
 
 
