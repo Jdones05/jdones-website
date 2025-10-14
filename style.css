@@ -96,14 +96,16 @@ nav ul {
   border-radius: var(--main-radius);
   padding: var(--main-padding);
   border: 1px solid var(--offwhite);
+  color: black;
+  text-align: center;
 }
-#pictures img {
-  width: 300px;
+.gallery img{
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
-    margin-bottom: 10px;
-    border: 3px solid var(--salmon);
+  border: 3px solid var(--salmon);
 }
 
 #socials {
@@ -121,5 +123,6 @@ nav ul {
   padding: var(--main-padding);
   color: white;
 }
+
 
 
